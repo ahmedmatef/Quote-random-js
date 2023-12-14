@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ass W-8</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      .mar {
+        margin-top: 100px;
+        padding: 20px;
+      }
+      button {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body class="bg-info">
+    <div class="container text-center mar bg-light shadow-lg rounded-4">
+      <h1>Quote of the Day</h1>
+      <p>Press the button below to recieve a random quote!</p>
+
+      <button onclick="generateQuote();" class="btn bg-info">New Quote</button>
+      <p id="quote"></p>
+      <p id="quoteAuthor"></p>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
